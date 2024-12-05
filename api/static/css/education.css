@@ -1,0 +1,47 @@
+.topContainer {
+  display: flex;
+}
+.bodyContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+  background-color: lightgray;
+  margin: 15px;
+  padding: 15px;
+
+  .rightCard {
+    border: 1px solid green;
+    border-radius: 15px;
+    .card {
+      background-color: lightblue;
+      border: 5px solid darkblue;
+      border-radius: 15px;
+      align-items: center;
+
+      .card-img-bottom {
+        width: 80%;
+        height: 80%;
+        padding: 15px;
+      }
+    }
+  }
+
+  .leftCard {
+    border: 1px solid red;
+    border-radius: 15px;
+
+    .card {
+      background-color: lightblue;
+      border: 5px solid darkblue;
+      border-radius: 15px;
+      align-items: center;
+
+      .card-img-top {
+        width: 80%;
+        height: 80%;
+      }
+    }
+  }
+}
